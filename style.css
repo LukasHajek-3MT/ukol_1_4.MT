@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #7c0b0b;
+    color: rgb(126, 156, 131);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .item {
+    background-color: #328992ab;
+    padding: 22px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .item:hover {
+    background-color: #f19409;
+  }
+  
+  footer {
+    background-color: rgba(42, 124, 31, 0.705), 81, 31);
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
